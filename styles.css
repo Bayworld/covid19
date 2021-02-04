@@ -1,0 +1,75 @@
+body{
+    background: wheat;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: #f3ac3c;
+    border-radius: 100px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.stick{
+    width: 5px;
+    height: 155px;
+    background: #f3ac3c;
+    border-radius: 10px;
+    position: absolute;
+    top: 67px;
+    left: 200px;
+}
+
+.bend{
+    width: 5px;
+    height: 155px;
+    background: #f3ac3c;
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    transform: rotate(60deg);
+    left: 205px;
+}
+
+.slash{
+    width: 5px;
+    height: 155px;
+    background: #f3ac3c;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    transform: rotate(-60deg);
+    left: 200px;
+}
+
+.row1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: #998235;
+    position: absolute;
+    top: 120px;
+    left: 170px;
+}
+
+.row2{
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    background: #998235;
+    position: absolute;
+    top: 160px;
+    left: 190px;
+}
+
+.row3{
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: #998235;
+    position: absolute;
+    top: 120px;
+    left: 220px;
+}
